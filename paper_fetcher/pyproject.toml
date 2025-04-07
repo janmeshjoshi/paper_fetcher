@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "paper-fetcher"
+version = "0.1.0"
+description = "Fetch PubMed papers with industry affiliations"
+authors = ["Janmesh Joshi <janmeshjoshi1510@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+biopython = "^1.80"
+requests = "^2.28.0"
+pandas = "^2.2.3"
+python-dotenv = "^1.1.0"
+certifi = "^2025.1.31"
+
+[tool.poetry.scripts]
+paper-fetcher = "paper_fetcher.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+flake8 = "^7.2.0"
+pre-commit = "^4.2.0"
+pytest = "^8.3.5"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

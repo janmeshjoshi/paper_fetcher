@@ -1,0 +1,25 @@
+Pfizer
+Moderna
+AstraZeneca
+Johnson & Johnson
+Roche
+Novartis
+Sanofi
+GSK
+Merck
+Bayer
+AbbVie
+Amgen
+Regeneron
+Eli Lilly
+Bristol Myers Squibb
+Takeda
+Biogen
+Novo Nordisk
+Genentech
+Gilead Sciences
+CSL Behring
+Teva Pharmaceuticals
+Boehringer Ingelheim
+Servier
+Ipsen
